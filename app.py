@@ -1,10 +1,10 @@
 import streamlit as st
 import numpy as np
-import pickle
+import joblib
 
 # Load your model (ensure the model is saved as .pkl)
-with open("xgb_class_smote.pkl", "rb") as file:
-    model = pickle.load(file)
+file = xgb_class_smote.joblib
+model = joblib.load(file)
 
 st.title("Credit Card Fraud Detection")
 
