@@ -5,5 +5,5 @@ seaborn==0.13.2
 scikit-learn==1.6.1
 xgboost==3.0.0
 imbalanced-learn==0.13.0
-joblib==1.4.2
+joblib
 streamlit==1.42.2
