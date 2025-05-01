@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load your model (ensure the model is saved as .pkl)
-file = xgb_class_smote.joblib
+file = "xgb_class_smote.joblib"
 model = joblib.load(file)
 
 st.title("Credit Card Fraud Detection")
